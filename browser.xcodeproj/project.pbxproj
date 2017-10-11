@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0439CEE71F8E0F7700D86586 /* urlBrowse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439CEE61F8E0F7700D86586 /* urlBrowse.swift */; };
+		0439CEE91F8E11A200D86586 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439CEE81F8E11A200D86586 /* newViewController.swift */; };
 		04EEF3EB1F8DEC8E00478B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF3EA1F8DEC8E00478B1B /* AppDelegate.swift */; };
 		04EEF3ED1F8DEC8E00478B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF3EC1F8DEC8E00478B1B /* ViewController.swift */; };
 		04EEF3F01F8DEC8E00478B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEF3EE1F8DEC8E00478B1B /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0439CEE61F8E0F7700D86586 /* urlBrowse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urlBrowse.swift; sourceTree = "<group>"; };
+		0439CEE81F8E11A200D86586 /* newViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		04EEF3E71F8DEC8E00478B1B /* browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EEF3EA1F8DEC8E00478B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EEF3EC1F8DEC8E00478B1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				04EEF3F11F8DEC8E00478B1B /* Assets.xcassets */,
 				04EEF3F31F8DEC8E00478B1B /* LaunchScreen.storyboard */,
 				04EEF3F61F8DEC8E00478B1B /* Info.plist */,
+				0439CEE61F8E0F7700D86586 /* urlBrowse.swift */,
+				0439CEE81F8E11A200D86586 /* newViewController.swift */,
 			);
 			path = browser;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				04EEF3ED1F8DEC8E00478B1B /* ViewController.swift in Sources */,
 				04EEF3EB1F8DEC8E00478B1B /* AppDelegate.swift in Sources */,
+				0439CEE71F8E0F7700D86586 /* urlBrowse.swift in Sources */,
+				0439CEE91F8E11A200D86586 /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				04EEF4111F8DEC8E00478B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EEF4121F8DEC8E00478B1B /* Build configuration list for PBXNativeTarget "browserTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				04EEF4141F8DEC8E00478B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EEF4151F8DEC8E00478B1B /* Build configuration list for PBXNativeTarget "browserUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				04EEF4171F8DEC8E00478B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
